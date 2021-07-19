@@ -1,0 +1,443 @@
+
+.header{
+    display: flex;
+    height: 44px;    
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    align-items: center;
+    padding:0px 5px;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    justify-content: center;
+}
+.nav-bar{
+    display: flex;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+.b-nav{
+    text-decoration: none;
+}
+.b-nav__links{
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1;
+    color: rgb(201, 201, 201);
+    transition: all .3s ease-in;
+}
+.b-nav__span,
+.b-nav__icons{
+    font-size: 20px;
+    color: rgb(201, 201, 201);
+    transition: all .3s ease-in;
+    text-decoration: none;
+}
+.b-nav__links:hover,
+.b-nav__icons:hover,
+.b-nav__span:hover{
+    color:white ;
+}
+/* ------------------//hero//------------------------------------- */
+.b-hero{
+    height: 80vh;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.b-hero__container{
+    background: url(../img/hero-section.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.b-hero__banner{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.b-hero__bar{
+    background: rgb(247, 247, 247);
+    width: 100%;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    text-align: center;
+    padding: 10px 0px;
+}
+.b-hero__title{
+    color: white;
+    padding-top: 40px;
+    font-size: 48px;
+    font-weight: 600;
+}
+.b-hero__subtitle{
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+.b-hero__subtitle-2{
+    font-size: 18px;
+    padding:5px 0px;
+    font-weight: 400;
+    text-align: center;
+    color: #86868b;
+}
+.b-hero__link2{
+    text-decoration: none;
+    font-size: 18px;
+    color: #2997ff;
+    padding: 0px 10px;
+}
+/* ------------section iphone ------------ */
+.iphone{
+    height: 90vh;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.iphone__container{
+    background: url(../img/iphone-section.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.iphone__banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+.iphone__title{
+    color: black;
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: -.02em;
+}
+.iphone__subtitle{
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: -.02em;
+    color: black;
+}
+.iphone__subtitle-2{
+    font-size: 18px;
+    font-weight: 400;
+    padding:5px 0px;
+    color: #86868b;
+}
+.iphone__link2{
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    letter-spacing: .011em;
+    padding: 0px 10px;
+}
+/* -------------seccion imac---------------------------- */
+.imac{
+    height: 75vh;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.imac__container{
+    background: url(../img/hero-imac-large.jpg);
+    width: 100%;
+    height:75vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.imac__banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+.imac__title{
+    color: black;
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: -.02em;
+}
+.imac__subtitle{
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: -.02em;
+    color: black;
+}
+.imac__subtitle-2{
+    font-size: 18px;
+    font-weight: 400;
+    padding:5px 0px;
+    color: #86868b;
+}
+.imac__link2{
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    letter-spacing: .011em;
+    padding: 0px 10px;
+}
+/* ----------------section blocks-products--------------------------- */
+.b-products{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.b-products__item{
+    height: 600px;
+    margin-bottom: 5px;
+}
+.iphone-12{
+    background-image: url(../img/figure-1-apple.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.iwatch{
+    background-image: url(../img/figure-2-apple.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.arcade{
+    background-image: url(../img/figure-3-apple.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.trade-in{
+    background-image: url(../img/figure-4-apple.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.airtag{
+    background-image: url(../img/figure-5-apple.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.apple-tv{
+    background-image: url(../img/figure-6-apple.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.b-products__banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0px 5px;
+    justify-content: center;
+    width: 100%;
+} 
+.b-products__title{
+    color: white;
+    padding-top: 20px;
+    font-size: 40px;
+    width: 70%;
+    text-align: center;
+    font-weight: 600;
+}
+.b-products__img{
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.b-products__subtitle{
+    font-size: 24px;
+    font-weight: 400;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+.b-products__subtitle-2{
+    font-size: 18px;
+    padding:5px 0px;
+    font-weight: 400;
+    color: #86868b;
+}
+.b-products__link2{
+    text-decoration: none;
+    font-size: 18px;
+    color: #2997ff;
+    padding: 0px 10px;
+}
+.b-products__tv{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 624px;
+    padding:10px;
+    margin-bottom: 5px;
+}
+.tv-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.tv-banner__title{
+    width: 80px;
+    margin-bottom: 20px;
+}
+.tv-banner__subtitle{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    width: 80%;
+    text-align: center;
+}
+.tv-banner__link{
+    text-decoration: none;
+    color: #06c;
+    font-size: 20px;
+}
+.tv-banner__link:hover{
+    color: white;
+}
+/* -------------------section-terms------------------------ */
+.footer{
+    width: 100%;
+    height: auto;
+    background: #f5f5f7;
+}
+.footer__terms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.terms-list{
+    padding:30px 10px;
+    text-align: justify;
+    border-bottom:1px solid rgba(136, 136, 136, 0.329) ;
+}
+.terms-list__items{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.33337;
+    color: #86868b;
+}
+.footer__menu{
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.footer__submenu{
+    display: flex;
+}
+.footer__copyright{
+    width: 80%;
+    max-width: 1300px;
+
+}
+.f-submenu{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.f-submenu__block{
+    display: flex;
+    padding:0;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.f-submenu__h3{
+    font-size: 16px;
+    color: #515154;
+    text-align: center;
+}
+.f-submenu__list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:0;
+}
+.f-submenu__links{
+    text-decoration: none;
+    color: #515154;
+    font-size: 12px;
+    text-align: left;
+}
+.f-submenu__links:hover{
+    color:#424242 ;
+    text-decoration:underline ;
+}
+
+.copy__txt,
+.copy__msg{
+    color: #777777;
+    font-size: 14px;
+}
+.copy__links{
+    text-decoration: none;
+}
+.copy__bar{
+    border-top: 1px solid rgba(80, 80, 80, 0.473);
+    padding-top: 10px;
+}
+.copy__links{
+    padding-bottom: 20px;
+}
+.copy__url{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: #5e5e5e;
+}
+
+@media (max-width: 992px){
+   .b-hero__container{
+       background: url(../img/hero-rsponsive.jpg);
+       background-position: center;
+       background-size: cover;
+   }
+    .iphone__container{
+       background: url(../img/hero-iphone-respnsive.jpg);
+       background-position: center;
+       background-size: cover;
+   }
+   .imac__container{
+       background: url(../img/hero-imac-responsive.jpg);
+       background-position: center;
+       background-size: cover;
+   }
+
+    .b-hero__title,
+   .iphone__title,
+   .imac__title{
+       font-size: 32px;
+   }
+   .b-hero__subtitle,
+   .iphone__subtitle,
+   .imac__subtitle{
+       font-size: 20px;
+   }
+   .b-hero__subtitle-2,
+   .iphone__subtitle-2,
+   .imac__subtitle-2{
+       font-size: 16px;
+   }
+   .b-hero__link2,
+   .iphone__link2,
+   .imac__link2{
+       font-size: 16px;
+   }
+    .b-products__title{
+        font-size: 2em;
+    }
+    .b-products__subtitle,
+    .b-products__subtitle-2,
+    .b-products__link2{
+        font-size: 1em;
+    }
+}

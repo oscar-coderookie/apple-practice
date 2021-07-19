@@ -1,0 +1,128 @@
+.b-products{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &__item{
+        height: 600px;
+        margin-bottom: 5px;
+    }
+    &__banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:0px 5px;
+        justify-content: center;
+        width: 100%;
+    }
+    &__title{
+        color: white;
+        padding-top: 20px;
+        font-size: 40px;
+        width: 70%;
+        text-align: center;
+        font-weight: 600;
+        @media (max-width: 991.98px){
+           font-size: 32px;
+           }
+    }
+    &__img{
+        height: 40px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    &__subtitle{
+        font-size: 24px;
+        font-weight: 400;
+        width: 80%;
+        text-align: center;
+        color: white;
+        @media (max-width: 991.98px){
+            font-size: 16px;
+            }      
+    }
+    &__subtitle-2{
+        font-size: 18px;
+        padding:5px 0px;
+        font-weight: 400;
+        color: #86868b;
+        @media (max-width: 991.98px){
+            font-size: 16px;
+            }  
+    }
+    &__link2{
+        text-decoration: none;
+        font-size: 18px;
+        color: #2997ff;
+        padding: 0px 10px;
+    }
+    &__tv{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 624px;
+        padding:10px;
+        margin-bottom: 5px;
+    }
+}
+.iphone-12{
+    background-image: url(../img/figure-1-apple.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.iwatch{
+    background-image: url(../img/figure-2-apple.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.arcade{
+    background-image: url(../img/figure-3-apple.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.trade-in{
+    background-image: url(../img/figure-4-apple.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.airtag{
+    background-image: url(../img/figure-5-apple.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.apple-tv{
+    background-image: url(../img/figure-6-apple.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.tv-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+
+    &__title{
+        width: 80px;
+        margin-bottom: 20px;
+    }
+    &__subtitle{
+        color: white;
+        font-size: 24px;
+        font-weight: 400;
+        width: 80%;
+        text-align: center;
+    }
+    &__link{
+        text-decoration: none;
+        color: #06c;
+        font-size: 20px;
+        &:hover{
+            color: white;
+        }
+    }
+    
+}
